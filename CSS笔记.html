@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <style>
+       p{
+        color: blue;
+        font-size: 30px;
+        background-color: brown;
+        width: 400px;
+        height: 200px;
+          }
+    img{
+        text-align: center;
+        }
+    </style>
+    
+</head>
+<body >
+    <H1>CSS笔记</H1>
+    <br>
+    <h2>选择器</h2>
+            css写在style,style在head中(title的下面)
+            <br>
+        <b> 选择器+{}</b>
+        <p>选择器：查找标签</p>
+                <b> 文字颜色color
+                    <br>
+                    字变大font-size,px是像素
+                    <br>
+                    背景颜色backgrond-color
+                    <br>
+                    背景条的宽高width:  height: 
+                </b>
+                <br>
+                            三种写法:
+                            <br>
+                            1外联式{多个页面，项目中}:css写在.css文件(重建一个后缀为.css的文件)中,在此文件中直接写选择器+{},然后在.html文件中title下面加入link
+                            <br>
+                            2行内式{当前标签,配合js使用}:css写在标签中,加入style,引号中加入color,font-size等东西
+                            <br>
+                            3内嵌式{当前页面，小案例}: 写在style里面,style在head中(title的下面)
+                <br>
+                <h3>标签选择器</h3>
+                <br>
+                所以相同的标签都会选中
+                            <h3>类选择器</h3>
+                            .类名（有多个相同的标签，但是只要其中一个时使用）
+                            <br>
+                            在style中写.类名，然后在要用的标签中加入class，引号中加入类名
+                            <br>
+                <h3>id选择器</h3>
+                <br>是配合js使用
+                <br>在style中写#+属性名(#t)
+                <br>id写在所要用的标签中,如p id="t"
+                <br>只能选中一个id,一个id只能选中一个标签 
+                        <h3>通配符选择器</h3>
+                        <br>style中输入*{color}全部会选中
+                        <br>*一般用于去除margin和padding
+    <h2>字体和文本样式</h2>
+    <br>
+                    <h3>字体大小</h3>
+                <br>font-size;px+数字
+                    <br><h3>字体粗细</h3>
+                <br>font-weight,700是加粗,400是正常
+                    <br><h3>字体样式 </h3>
+                <br>font-style,italic是倾斜,normal是正常
+                    <br><h3>字体系列</h3>
+                <br>font-family;微软雅黑，黑体，宋体，sans-serif
+                    <br><h3>样式的层叠问题</h3>
+                <br>一层一层覆盖，后盖前
+                    <br><H3>字体font相关属性的连写</H3>
+                <br>font;style size weight family(中间用空格隔开)
+                <br>font;italic 700 66px 宋体
+                <br><b>一个属性后跟多个值，空格隔开</b>
+                    <br><h3>文本缩进</h3>
+                <br>text-indent,数字+px/数字+em(两个字大小是32像素){一个em是一个字大小，一般2em}
+                    <br><h3>文本水平对齐方式</h3>
+                <br>text-align,left左对齐center居中对齐,right右对齐
+                <img src="./a.png" width="400" alt="">
+                <br>canter可以让文本,span标签,a标签,input标签,img标签居中
+                
+                <br><img src="./x.png" alt="">
+                   <br><h3>行高</h3>
+                <br>line-height,数字+px,倍数(当前标签font-size的倍数)
+    <h2>谷歌调试工具</h2>
+    <br><h2>大标签居中</h2>
+    <br>在style中的大标签加margin:0 auto
+                
+
+
+</body>
+</html>
