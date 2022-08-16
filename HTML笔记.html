@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=4.0">
+    <title>九沁菀</title>
+</head>
+<body>
+    <!-- 快速改前后ctrl+d -->
+   <h1>HELLO WORLD </h1>
+   <h2>HELLO WORLD </H2>
+   <h3>HELLO WORLD </h3>
+   <H4>HELLO WORLD </H4>
+   <h5>HELLO WORLD </h5>
+     <hr>
+     <!-- "hr"隔行线 -->
+   <p>2006年4月，武汉大学珞珈学院经教育部批准创建，同年招生。<br>年，学校荣获“21世纪中国教育改革创新示范院校”。2012年，学校获批为学士学位授权单位。</p>
+   index.是首页
+   <br>
+   <b>alt+z是换行</b>
+          <p><b>加粗</b>
+            <strong>加粗</strong>
+            <s>删除线</s>
+            <del>删除线</del></p>
+          <p><b>图片</b>
+          <br> src是图片名
+            <br> alt是图片加载失败时才显示
+              <br>title提示文本，鼠标悬停时才显示的文本
+              <br>width  height图片比例只用写一个，另一个会等比例放
+              <br>路径分为绝对路径（从盘符开始，网址）和相对路径（从当前文件开始）（ 上级/...+/+文件夹名+/+图片名，同级/图片名，下级/文件夹名+图片名）
+              <br> 超链接
+              <a href="http://www.baidu.com/"target="-blank ">百度</a>
+              <a href="#">空连接</a>
+          </p>
+   <p>
+    
+   </p>
+   <!-- "br"换行 -->
+         <img src="a.png" alt="" title="注意" width="700">
+         
+         <video src="薛之谦 - 迟迟.mp4" controls></video>
+         <audio src="王晨艺 - 悻悻.mp3"controls loop></audio>
+         
+   <p>列表-有序(ol-li)-无序(ul-li)-自定义</p>
+   <Ul>
+     <li>榴莲</li>
+     <li>香蕉</li>
+     <li>苹果</li>
+  </Ul>
+  <ol>
+    <li>张山</li>
+    <li>李四</li>
+    <li>王五</li>
+  </ol>
+  <dl>
+    <dt>帮助中心</dt>
+    <dd>账户内容</dd>
+    <dd>购物</dd>
+    <dd>点歌单</dd>
+  </dl>
+  <P>表格(table整体>tr行>td单元格,td-th是加粗)(theadb表格头部,tbody表格主体,tfoot表格底部)(rowspan竖着colspan横着)</P>
+  <table border="1" width="600" height="400">
+    <caption><strong>成绩单</strong></caption>
+    <thead>
+        <tr>
+          <th>姓名</th>
+          <th>成绩</th>
+          <th>评语</th>
+        </tr>
+  </thead>
+  <tbody>
+        <tr>
+          <td>九沁菀</td>
+          <td rowspan="3">100</td>
+          <td>棒</td>
+        </tr>
+  
+    <tr>
+      <td>九沁菀</td>
+      <td>漂亮</td>
+    </tr>
+    <tr>
+      <td>九沁菀</td>
+      <td>GOOD</td>
+    </tr>
+  </tbody>
+  </table>
+</body>
+<body>
+          <form action="">
+            <!-- <form action=""></form>把整个放在里面才可以使用重置等按钮 -->
+          文本<input placeholder="电话号码/邮箱" type="text">
+          <br>
+          密码<input type="password" placeholder="密码">
+          <br>
+          单选框,多选一<input type="radio">
+          <br>
+          单选框，多选多<input type="checkbox" checked>
+          <br>
+          文件<input type="file">
+          <br>
+          提交按钮<input type="submit" value="免费注册">
+          <p><b>value是添加文字,checked是默认设置</b></p>
+          <br>
+          重置按钮<input type="reset">
+          <br>
+          普通按钮<input type="button">
+          <br>
+          性别：<input type="radio" name="gender">男 <input type="radio" name="gender"checked>女</form>
+          <button>按钮</button>
+          <button type="submit">提交按钮</button>
+          <button type="reset">重置按钮</button>
+          <button type="button">普通按钮，无任何功能</button>
+          <img src="qq.jpg.png" width="500" alt="">
+</body>
+<body>
+        <P><b>select是下拉菜单,option中加select可以将当前设为默认选中</b></P>
+        <select >
+          <option>北京</option>
+          <option>陕西</option>
+          <option selected>湖北</option>
+          <option>上海</option>
+        </select>
+        <p>文本域：textarea可以输入多行文本
+          <br>
+          cols：宽度
+          <br>
+          rows：高度
+        </p>
+        <textarea  cols="30" rows="10"></textarea>
+      </body>
+      <body><br>
+
+        性别：
+        <input type="radio" name="sex" id="nan"><label for="nan">男</label>
+      <label>  <input type="radio" name="sex">女</label>
+</body>
+        <body>
+          <p>
+            语义化标签
+            <br>
+            无语义标签：div(换行)，span(同行)
+            <div>div标签</div>
+            <div>div标签</div> 
+            <span>span标签</span>
+            <span>span标签</span>
+            <br>
+            有语义的标签(手机端)
+            <br>
+            header网页头部
+            <br>
+            nav网页导航
+            <br>
+            footer网页底部
+            <br>
+            aside网页侧边栏
+            <br>
+            section网页区块 
+            <br>
+            article 网页文章   
+          </p>
+        </body>
+    <body>
+      文职&nbsp;是什么
+    </body>
+    <body>
+      <table border="1" width="500" height="300">  
+           <caption>优秀人员信息表</caption>>
+           <tr>
+                <th>年纪</th>
+                <th>姓名</th>
+                <th>学号</th>
+                <th>班级</th>
+           </tr>
+           <tr>
+                <td rowspan="2">高三</td>
+                <td>九沁菀</td>
+                <td>308</td>
+                <td>三年级</td>
+          </tr>
+           <tr>
+              
+                <td>小九</td>
+                <td>110</td>
+                <td>三年级</td>
+          </tr>
+          <tr>
+            <td>评语</td>
+            <td colspan="3">你们都很优秀</td>
+           </tr>
+      </table>
+    </body>
+    <body>
+      <h1>孤独到深处</h1>
+      <hr>
+      <form action="">
+        昵称：<input type="text" placeholder="请输入">
+        <br>
+        性别：<label ><input type="radio"  name="sex" >男</label>
+        <label ><input type="radio"  name="sex"checked >女</label>
+        <br>
+        所在城市：
+        <select>
+          <option>湖北</option>
+          <option>北京</option>
+          <option>云南</option>
+          <option selected>陕西</option>
+          <option>山西</option>
+          <option>上海</option>
+        </select>
+        <br>
+        爱好：<input type="checkbox" checked>乒乓
+        <input type="checkbox">羽毛球
+        <br>
+        <h4>要求</h4>
+        <ul>
+          <li>一个人</li>
+          <li>一本书</li>
+          <li>一个灵魂</li>
+        </ul>
+        <input type="submit" value="提交">
+        <button>重置</button>
+      </form>
+    </body>
+</html>
