@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style></style>
+    <!-- 2,内嵌式 -->
+    <script>
+        // alert('你好')
+    </script>
+    <Script src="./1.js"></Script>
+    <!-- 外部式 -->
+    
+</head>
+<body>
+    <input type="button" value="唐伯虎" onclick="alert('秋香')">
+    <!-- <br>1,行内式 -->
+    <!-- 1，单行注释，//，ctrl+/ -->
+    <!-- 2.多行注释，/*，ctrl+shift+/ -->
+        <p> 在script中输入
+         // 这是一个输入框
+        prompt('请输入你的名字')
+        // alert 弹出警示框 输出的 展示给用户看的
+        alert('计算的结果是')
+        // console 控制台输出 给程序员测试用的
+        console.log('程序员看的')
+    </p>
+    <p> // 1, 声明了一个age的变量
+        var age;
+        //    2,赋值 把值存入这个变量中
+        age=18
+        // 3，输出结果
+        console.log(age);
+        // 4,变量的初始化
+        var myname ='九'
+        console.log(myname)
+    </p>
+        <p> var myname =  prompt('请输入您的名字');
+        alert(myname)
+    </p>
+    <p>
+        同时声明多个变量，      
+        var age =18,
+        gz =200,
+        address ='湖北';
+    </p>
+    <p>不声明不赋值会报错
+        var sex;
+       console.log(sex);
+       结果是undefined
+    </p>
+     <p>不声明直接赋值使用,可以但不用
+        qq = 110;
+        console.log(qq)
+     </p>
+     <p><h2>将两个东西要交换时</h2>
+        <br>
+        //    1，需要一个临时变量
+    // 2，把apple1给临时变量temp
+    // 3，把aaple2里面的苹果给apple1
+    // 4，把临时变量里面的值给apple2
+    var temp;
+    var apple1 ='青苹果';
+    var apple2 ='红苹果';
+    temp = apple1;// 把右边给左边
+    apple1 =apple2;
+    apple2 =temp;
+    console.log(apple1)
+    console.log(apple2)
+     </p>
+
+</body>
+
+</html>
